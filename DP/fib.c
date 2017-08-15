@@ -9,7 +9,7 @@ int main(int argc, char const *argv[])
 }
 
 int fib(int n) {
-	int f = 1, g = 1;//fib(0) = 0; fib(1) = 1;
+	int f = 1, g = 1;//f(1) = 1,f(1) = 2
 	printf("%d\n%d\n", f, g);
 	while(n > 2) {
 		g = g + f;
