@@ -8,7 +8,7 @@ int main(void) {
     int i = strlen(b_word) - 1;
     while (i >= 0){
         int j = i;
-        while(b_word[j - 1] != ' ') {
+        while(j > 0 && b_word[j - 1] != ' ') {
             j--;
             if(j == 0) break;
         }
