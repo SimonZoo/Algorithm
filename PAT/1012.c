@@ -46,6 +46,6 @@ int main(void) {
     if (five[3] == 0) printf("N ");
     else printf("%.1f ", sum / count_3);
 
-    if (five[4] == 0) printf("N ");
+    if (five[4] == 0) printf("N");
     else printf("%d", five[4]);
 }
