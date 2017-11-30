@@ -19,6 +19,5 @@ int main(void) {
         sum = sum * number[i][max[i]];
     }
     sum = (sum * 0.65 - 1) * 2;
-    sum = ((int)(sum*100.0+0.51)) / 100.0;
     printf("%.2lf", sum);
 }
