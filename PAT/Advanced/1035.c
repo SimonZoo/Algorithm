@@ -17,6 +17,7 @@ int main(void) {
             }
         }
         if (f) {
+            modify[count][0] = '\0';
             strcat(modify[count], id);
             strcat(modify[count], " ");
             strcat(modify[count], pwd);
